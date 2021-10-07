@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Your description goes here" />
+		<meta name="keywords" content="one, two, three" />
+		<title>Blank Template</title>
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<h1>name generator</h1>
+		<!-- //create 5 survey questions with answers to choose from  -->
+		<!-- // add a drop down list and create id for that so we can do the query selectors for it on JS -->
+		<section class="first">
+			<label for="color">Choose Color:</label>
+			<select type="color" id="color">
+				<option value="">-- choose an option--</option>
+				<option value="0">red</option>
+				<option value="1">green</option>
+				<option value="2">purple</option>
+			</select>
+		</section>
+		<section class="seccond">
+			<label for="color">Choose Shape:</label>
+			<select type="shape" id="shape">
+				<option value="">-- choose an option--</option>
+				<option value="0">circle</option>
+				<option value="1">square</option>
+				<option value="2">triangle</option>
+			</select>
+		</section>
+		<section class="third">
+			<label for="cereal">Choose Cereal:</label>
+			<select type="cereal" id="cereal">
+				<option value="">-- choose an option--</option>
+				<option value="0">frosted flakes</option>
+				<option value="1">fruit loops</option>
+				<option value="2">trix</option>
+			</select>
+		</section>
+		<section class="fourth">
+			<label for="swag">Choose swag:</label>
+			<select type="swag" id="swag">
+				<option value="">-- choose an option--</option>
+				<option value="0">kicks</option>
+				<option value="1">drip</option>
+				<option value="2">lay</option>
+			</select>
+		</section>
+		<section class="fith">
+			<label for="line">Choose a line:</label>
+			<select class="line" id="line">
+				<option value="">-- choose an option--</option>
+				<option value="0">hit em wit a banga</option>
+				<option value="1">bbbrrrrrrr</option>
+				<option value="2">anotha one</option>
+			</select>
+		</section>
+		<!-- // add a submit button  -->
+		<section class="resultButton">
+			<p class="wuTangName"></p>
+			<button class="button" type="button">click to generate name</button>
+		</section>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

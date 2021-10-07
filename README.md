@@ -1,22 +1,23 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# Palindrome Checker
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+<p> A simple JS application that returns a gangstah name based on users answer to survey questions </p>
 
-### How to submit your code for review:
+<h1>How It's Made:</h1>
+<p>Utilized: </p> 
+    <ul> 
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+    </ul>
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<p>Users are prompted to answer several questions, which returns a gangstah name based on their responses<p/>
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+<h1>Lessons Learned:</h1>
+<p>Through building this app, I was able to learn more common algorithms </p>
+
+<h1>Optimizations</h1>
+<p>As someone with no background in art, styling could definitely use improvements.</p>
+<p>Optimize CSS</p>
+<p>Some of the code needs to refactored for better readability. </p>
+
+---
